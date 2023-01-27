@@ -1,0 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;1,100;1,400;1,500;1,700&family=Roboto:wght@100&family=Unbounded:wght@300;400;500;600&display=swap');
+
+
+
+
+  body{
+      background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(6, 4, 56) 0%, rgb(147, 44, 121) 11%, rgb(37, 209, 243) 100%);
+      font-family: 'Unbounded', cursive;
+  }
+  #container{
+      background-color:aqua;
+      width: 500px;
+      margin: auto;
+      margin-top: 25vh;
+      padding: 15px;
+      border: 5px solid rgb(241, 187, 40);
+  }
+  input, button{
+      padding: 10px;
+      outline: none;
+  }
+  p{
+      font-size: 13px;
+  }
+  
+  button{
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      transition: 1s;
+  }
+  button:hover{
+      background-color: rgb(216, 91, 8);
+      border-color: rgb(92, 28, 4);
+  
+  }
+  #result{
+      font-weight: bold;
+      font-size: 15px;
+  }
